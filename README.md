@@ -1,13 +1,7 @@
-THIS IS MY FOR OF THE ORIGINAL REPO
+THIS IS MY FORK OF THE ORIGINAL REPO
 
  Preprocessing with scikit-learn - Cumulative Lab
-
-## Introduction
-In this cumulative lab, you'll practice applying various preprocessing techniques with scikit-learn (`sklearn`) to the Ames Housing dataset in order to prepare the data for predictive modeling. The main emphasis here is on preprocessing (not EDA or modeling theory), so we will skip over most of the visualization and metrics steps that you would take in an actual modeling process.
-
-## Objectives
-
-You will be able to:
+ be able to:
 
 * Practice identifying which preprocessing technique to use
 * Practice filtering down to relevant columns
