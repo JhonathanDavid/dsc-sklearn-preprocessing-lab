@@ -1,4 +1,6 @@
-# Preprocessing with scikit-learn - Cumulative Lab
+THIS IS MY FOR OF THE ORIGINAL REPO
+
+ Preprocessing with scikit-learn - Cumulative Lab
 
 ## Introduction
 In this cumulative lab, you'll practice applying various preprocessing techniques with scikit-learn (`sklearn`) to the Ames Housing dataset in order to prepare the data for predictive modeling. The main emphasis here is on preprocessing (not EDA or modeling theory), so we will skip over most of the visualization and metrics steps that you would take in an actual modeling process.
@@ -18,21 +20,11 @@ You will be able to:
 
 ![house in Ames](images/ames_house.jpg)
 
-<span>Photo by <a href="https://unsplash.com/@kjkempt17?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kyle Kempt</a> on <a href="https://unsplash.com/s/photos/ames?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
-
-### Requirements
-
-#### 1. Drop Irrelevant Columns
-
-For the purposes of this lab, we will only be using a subset of all of the features present in the Ames Housing dataset. In this step you will drop all irrelevant columns.
-
-#### 2. Handle Missing Values
-
+<span>Photo by <a href="https://unsplash.com/@kjkempt17?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">KylDrop 		Irrelevant
+For the purposes of this lab, we wil only be using a subset of all of the feature Ha
 Often for reasons outside of a data scientist's control, datasets are missing some values. In this step you will assess the presence of NaN values in our subset of data, and use `MissingIndicator` and `SimpleImputer` from the `sklearn.impute` submodule to handle any missing values.
-
-#### 3. Convert Categorical Features into Numbers
-
-A built-in assumption of the scikit-learn library is that all data being fed into a machine learning model is already in a numeric format, otherwise you will get a `ValueError` when you try to fit a model. In this step you will use an `OrdinalEncoder` to replace data within individual non-numeric columns with 0s and 1s, and a `OneHotEncoder` to replace columns containing more than 2 categories with multiple "dummy" columns containing 0s and 1s.
+#### 3. Convert Categorieatures into 
+A built-in assumption of t-learn library is that all data being fed into a machine learning model is already in a numeric format, otherwise you will get a `ValueError` when you try to fit a model. In this step you will use an `OrdinalEncoder` to replace data within individual non-numeric columns with 0s and 1s, and a `OneHotEncoder` to replace columns containing more than 2 categories with multiple "dummy" columns containing 0s and 1s.
 
 At this point, a scikit-learn model should be able to run without errors!
 
